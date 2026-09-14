@@ -9,4 +9,9 @@ class SalariedEmployee extends Employee {
     public int getWeeklySalary() {
         return weeklySalary;
     }
+
+    public void print() {
+        super.print();
+        System.out.println("    Weekly Salary: " + weeklySalary);
+    }
 }

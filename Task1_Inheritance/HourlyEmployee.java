@@ -15,4 +15,10 @@ class HourlyEmployee extends Employee {
     public int getHoursWorked() {
         return hoursWorked;
     }
+
+    public void print() {
+        super.print();
+        System.out.println("    Wage: " + wage);
+        System.out.println("    Hours Worked: " + hoursWorked);
+    }
 }

@@ -9,4 +9,13 @@ class BaseEmployee extends Employee {
     public int getBaseSalary() {
         return baseSalary;
     }
+
+    public void setBaseSalary(int baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public void print() {
+        super.print();
+        System.out.println("    Base Salary: " + baseSalary);
+    }
 }
