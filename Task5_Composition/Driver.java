@@ -38,5 +38,12 @@ class Driver {
         app.addSubFolder(library);
 
         demo1.printFolderStructure(0);
+
+        sourceFiles.removeSubFolder(app);
+        demo1.printFolderStructure(0);
+
+         sourceFiles.removeSubFolder(publicFolder);
+        demo1.printFolderStructure(0);
+        
     }
 }
